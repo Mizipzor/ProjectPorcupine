@@ -1,6 +1,8 @@
 language: csharp
 install:
 - ./Scripts/install.sh
+before_script:
+- npm install -g unity-solution
 script:
 - ./Scripts/build.sh
 sudo: required
