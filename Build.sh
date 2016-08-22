@@ -1,6 +1,2 @@
-
-unitysolution ./ProjectPorcupine Standalone
-
-xbuild /p:Configuration=Debug ProjectPorcupine.sln
-
-ls -lh
+unitysolution Assets Standalone
+xbuild /p:Configuration=Debug unity.sln
