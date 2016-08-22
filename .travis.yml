@@ -1,0 +1,4 @@
+language: csharp
+solution: ProjectPorcupine.sln
+mono: 2.0
+
