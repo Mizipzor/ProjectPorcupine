@@ -1,4 +1,6 @@
 language: csharp
-solution: ProjectPorcupine.sln
-mono: 2.10.8
+install:
+- ./Build/install.sh
+script:
+- ./Build/build.sh
 
