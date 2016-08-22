@@ -1,6 +1,6 @@
 language: csharp
 install:
-- ./Build/install.sh
+- ./Scripts/install.sh
 script:
-- ./Build/build.sh
+- ./Scripts/build.sh
 
